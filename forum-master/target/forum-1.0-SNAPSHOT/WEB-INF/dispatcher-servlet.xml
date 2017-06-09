@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <mvc:annotation-driven>
+    </mvc:annotation-driven>
+    <context:component-scan base-package="java">
+    </context:component-scan>
+
+    <!--<bean id="plus" class="Calc.Plus">-->
+        <!--<constructor-arg value="4" />-->
+        <!--<constructor-arg value="5"/>-->
+
+    <!--</bean>-->
+    <!--<bean id="minus" class="Calc.Minus">-->
+        <!--<constructor-arg index="0" value="10"/>-->
+        <!--<constructor-arg index="1" value="4"/>-->
+
+    <!--</bean>-->
+    <!--<bean id="delenie" class="Calc.Delenie">-->
+        <!--<property name="a" value="15"/>-->
+        <!--<property name="b" value="5"/>-->
+
+    <!--</bean>-->
+    <!--<bean id="umnozhenie" class="Calc.Umnozhenie">-->
+        <!--<property name="a" value="5"/>-->
+        <!--<property name="b" value="5"/>-->
+    <!--</bean>-->
+    <!--<bean id="sqrt" class="Calc.Sqrt">-->
+        <!--<property name="a" value="25"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="solver" class="Calc.Solver">-->
+        <!--<property name="a" value="2"/>-->
+        <!--<property name="b" value="6"/>-->
+        <!--<property name="c" value="2"/>-->
+        <!--<property name="delenie" ref="delenie"/>-->
+        <!--<property name="minus" ref="minus"/>-->
+        <!--<property name="plus" ref="plus"/>-->
+        <!--<property name="sqrt" ref="sqrt"/>-->
+        <!--<property name="umnozhenie" ref="umnozhenie"/>-->
+
+    <!--</bean>-->
+</beans>
